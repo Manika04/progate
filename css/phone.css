@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    justify-content: center;
+}
+/* navigation */
+#navbar {
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: sticky;
+    
+}
+#navbar ul{
+    display: flex;
+    background: whitesmoke;
+}
+#navbar h2{
+    font-size: large;
+    padding: 7px 17px;
+}
+#navbar ul li{
+    align-items: center;
+}
+#navbar ul li a{
+    font-size:large;
+    padding: 7px 17px;
+}
+/* home section  */
+#home{
+    height: 615px;
+}
+#home h1{
+    font-size: 53px;
+    text-align: center;
+    justify-content: center;
+}
+#home img{
+    width: 340px;
+}
+/* about section  */
+#lang{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#about{
+    height:300pxpx;
+}
+.box{
+    padding: 7px 10px;
+}
+/* contact  */
+#contact{
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    height:900px;
+    text-align: center;
+    justify-content: center;
+    
+}
+#media{
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.social{
+    text-align: center; 
+    justify-content: center; 
+     margin: 0px -83px;
+     padding: 7px 17px;
+}

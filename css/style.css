@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+   scroll-behavior: smooth;
+}
+body{
+background:url('../bg.jpg');
+background-repeat: repeat-y;
+background-size: cover;
+}
+/* navigation bar  */
+#navbar{
+    display: block;
+    /* align-items: center;
+    justify-content: center; */
+    height: 100%;
+    width: 100%;
+    /* margin: 0px 0px; */
+     position: sticky;
+     z-index: 1;
+     top: 0px;
+}
+#navbar ul{
+    display: flex;
+    
+    background: whitesmoke;
+    /* text-align: center;
+    justify-content: center; */
+}
+#navbar ul h2{
+    float: left;
+    padding: 28px 28px;
+    font-family: 'Baloo Bhai', cursive;
+    font-weight: lighter;
+}
+
+#navbar ul li{ 
+    display: flex;
+    /* font-weight: bold; */
+    list-style: none;
+    font-size: 1.3rem;
+    text-align: center;
+    justify-content: center;
+}
+
+#navbar ul li a{
+    color: black;
+    display: block;
+    /* padding: 3px 22px; */
+    padding: 31px 28px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar li a:hover{
+   text-decoration: underline;
+   background: transparent;
+} 
+.right{
+    position: absolute;
+    right: 54px;
+    top: 13px;
+    display: inline-block;
+}
+
+/* button styling */
+.btn{
+    margin: 0px 9px;
+    background-color:whitesmoke;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* home section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    /* height: 550px; */
+    justify-content: center;
+    align-items: center;
+}
+#home h1{
+    font-size: 4.3rem;
+    padding: 20px;
+    /* font-family: 'Baloo Bhai', cursive;
+    font-weight: 200; */
+}
+#home img{
+    border: 1px solid black;
+    height: 60%;
+    width: 50%;
+    border-radius: 50%;
+}
+
+/* about section  */
+#about{
+    margin: 54px auto;
+    position: relative;
+    /* height: 750px; */
+}
+.container{
+    text-align: center;
+    justify-content: center;
+    display: block;
+    font-size: 2.3rem;
+    font-weight: 200;
+    font-family: 'Slabo 27px', serif;
+    /* width: 45px; */
+    /* background-color: rgb(242, 250, 253); */
+}
+#about h2{
+    font-size: 4.2rem;
+    text-decoration: underline;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100px;
+    /* font-family: 'Baloo Bhai', cursive;
+    font-weight: 200; */
+}
+
+#lang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 600px; */
+    /* margin: 9px ; */
+}
+.box{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: 34px;
+    /* border: 2px solid rgb(224, 240, 250);
+    background: whitesmoke;
+    border-radius: 10px; */
+    padding: 12px;
+}
+
+/* contact section  */
+#contact h1{
+    text-decoration: underline;
+    font-size:  4.2rem;
+    text-align: center;
+    justify-content: center;
+    /* font-family: 'Baloo Bhai', cursive;
+    font-weight: 200; */
+    /* height: 400px; */
+}
+#media{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.social{
+    display: flex;
+    /* border: 2px solid black; */
+    /* border-radius: 10px; */
+    /* background: whitesmoke; */
+    padding: 12px;
+    margin:0px 56px;
+    /* height: 200px; */
+}
